@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/nareshraja/Desktop/Code/naresh_work/charan/backend && npm install)",
+      "Bash(sleep 2 && curl -s http://localhost:3000 | head -5)",
+      "Bash(curl -s -X POST http://localhost:3000/api/login -H \"Content-Type: application/json\" -d '{\"email\":\"admin@road.com\",\"password\":\"admin123\"}')",
+      "Bash(curl -s http://localhost:3000/api/work-history)",
+      "Bash(pkill -f \"node server.js\" 2>/dev/null; echo \"done\")",
+      "Bash(sleep 2 && curl -s -X POST http://localhost:3000/api/login -H \"Content-Type: application/json\" -d '{\"email\":\"nareshrajaparimala000@gmail.com\",\"password\":\"Naresh@182004\"}' && echo \"\" && curl -s http://localhost:3000/api/stats/2 && echo \"\" && curl -s http://localhost:3000/api/emergency-contacts | head -20)",
+      "Bash(pkill -f \"node server.js\" 2>/dev/null; echo \"stopped\")"
+    ]
+  }
+}

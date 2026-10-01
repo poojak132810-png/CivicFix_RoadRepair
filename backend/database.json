@@ -1,0 +1,255 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@road.com",
+      "phone": "9876543210",
+      "aadhar": "1234-5678-9012",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Naresh",
+      "email": "nareshrajaparimala000@gmail.com",
+      "phone": "8884509528",
+      "aadhar": "1234567890",
+      "password": "Naresh@182004",
+      "role": "user",
+      "createdAt": "2026-05-15T13:58:50.531Z"
+    },
+    {
+      "id": 3,
+      "name": "Abcd",
+      "email": "abcd@gmail.com",
+      "phone": "1234567890",
+      "aadhar": "789456123789",
+      "password": "Abc@123",
+      "role": "user",
+      "createdAt": "2026-05-17T12:52:23.599Z"
+    },
+    {
+      "id": 4,
+      "name": "Charan K",
+      "email": "charankp333@gmail.com",
+      "phone": "07204655264",
+      "aadhar": "123456789101",
+      "password": "Charan@123",
+      "role": "user",
+      "createdAt": "2026-05-29T05:45:12.671Z"
+    },
+    {
+      "id": 5,
+      "name": "POOJA K",
+      "email": "poojak132810@gmail.com",
+      "phone": "08088068920",
+      "aadhar": "",
+      "password": "Acer.com28",
+      "role": "user",
+      "createdAt": "2026-10-01T15:13:24.822Z"
+    }
+  ],
+  "complaints": [
+    {
+      "id": 1,
+      "userId": 2,
+      "description": "Large pothole causing accidents near bus stop",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "address": "MG Road, Bangalore",
+      "severity": "High",
+      "image": "",
+      "status": "In Progress",
+      "timeline": [
+        {
+          "status": "Reported",
+          "date": "2026-05-10T09:30:00.000Z",
+          "note": "Complaint registered"
+        },
+        {
+          "status": "Acknowledged",
+          "date": "2026-05-10T14:00:00.000Z",
+          "note": "Verified by inspector"
+        },
+        {
+          "status": "Crew Assigned",
+          "date": "2026-05-12T10:00:00.000Z",
+          "note": "Repair team dispatched"
+        }
+      ],
+      "upvotes": 5,
+      "upvotedBy": [],
+      "createdAt": "2026-05-10T09:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "description": "Road surface damaged after heavy rain",
+      "latitude": 12.2958,
+      "longitude": 76.6394,
+      "address": "Ring Road, Mysuru",
+      "severity": "Medium",
+      "image": "",
+      "status": "Pending",
+      "timeline": [
+        {
+          "status": "Reported",
+          "date": "2026-05-13T11:00:00.000Z",
+          "note": "Complaint registered"
+        }
+      ],
+      "upvotes": 2,
+      "upvotedBy": [],
+      "createdAt": "2026-05-13T11:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "description": "Crack on highway causing vehicle damage",
+      "latitude": 13.3379,
+      "longitude": 77.1173,
+      "address": "NH44, Tumkur",
+      "severity": "Critical",
+      "image": "",
+      "status": "Resolved",
+      "timeline": [
+        {
+          "status": "Reported",
+          "date": "2026-04-20T08:00:00.000Z",
+          "note": "Complaint registered"
+        },
+        {
+          "status": "Acknowledged",
+          "date": "2026-04-20T12:00:00.000Z",
+          "note": "Marked as critical"
+        },
+        {
+          "status": "Crew Assigned",
+          "date": "2026-04-21T09:00:00.000Z",
+          "note": "Highway team assigned"
+        },
+        {
+          "status": "Repair Started",
+          "date": "2026-04-22T07:00:00.000Z",
+          "note": "Work commenced"
+        },
+        {
+          "status": "Resolved",
+          "date": "2026-04-25T16:00:00.000Z",
+          "note": "Repair completed successfully"
+        }
+      ],
+      "upvotes": 12,
+      "upvotedBy": [],
+      "createdAt": "2026-04-20T08:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "description": "Please clear this rode as soon as possible because this damages cosses more accedents ",
+      "latitude": 0,
+      "longitude": 0,
+      "address": "pichaguntrahalli ",
+      "severity": "Critical",
+      "image": "/uploads/1780033961806-istockphoto-1150370110-612x612.jpg",
+      "status": "Pending",
+      "timeline": [
+        {
+          "status": "Reported",
+          "date": "2026-05-29T05:52:41.820Z",
+          "note": "Complaint registered by user"
+        }
+      ],
+      "upvotes": 0,
+      "upvotedBy": [],
+      "createdAt": "2026-05-29T05:52:41.820Z"
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "userId": 2,
+      "userName": "Naresh",
+      "rating": 4,
+      "comment": "Quick response on MG Road pothole. Good work!",
+      "createdAt": "2026-05-13T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "userName": "Abcd",
+      "rating": 4,
+      "comment": "good\n",
+      "createdAt": "2026-05-18T06:31:35.264Z"
+    }
+  ],
+  "workHistory": [
+    {
+      "id": 1,
+      "location": "MG Road, Bangalore",
+      "description": "Pothole repair completed",
+      "status": "Completed",
+      "repairedDate": "2026-04-15",
+      "videoUrl": "",
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    {
+      "id": 2,
+      "location": "Ring Road, Mysuru",
+      "description": "Road resurfacing done",
+      "status": "Completed",
+      "repairedDate": "2026-03-20",
+      "videoUrl": "",
+      "latitude": 12.2958,
+      "longitude": 76.6394
+    },
+    {
+      "id": 3,
+      "location": "NH44, Tumkur",
+      "description": "Crack sealing completed",
+      "status": "In Progress",
+      "repairedDate": "",
+      "videoUrl": "",
+      "latitude": 13.3379,
+      "longitude": 77.1173
+    }
+  ],
+  "notes": [],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 3,
+      "message": "Welcome to RoadFix! Start reporting road issues.",
+      "type": "success",
+      "read": true,
+      "createdAt": "2026-05-17T12:52:23.599Z"
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "message": "Welcome to RoadFix! Start reporting road issues.",
+      "type": "success",
+      "read": true,
+      "createdAt": "2026-05-29T05:45:12.671Z"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "message": "Your complaint #4 has been registered.",
+      "type": "info",
+      "read": true,
+      "createdAt": "2026-05-29T05:52:41.820Z"
+    },
+    {
+      "id": 4,
+      "userId": 5,
+      "message": "Welcome to RoadFix! Start reporting road issues.",
+      "type": "success",
+      "read": false,
+      "createdAt": "2026-10-01T15:13:24.822Z"
+    }
+  ]
+}
